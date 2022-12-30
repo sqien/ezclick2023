@@ -3,16 +3,20 @@ from tkinter import ttk
 from tkinter import *
 
 gui = tk.Tk()
-var = IntVar()
 gui.title("EzClicker")
 #gui.geometry('400x300')
 gui.resizable(False, False)
 #ecl = tk.Label(text="EzClicker").pack()
 
-entry_cps = tk.StringVar()
+entry_cps = tk.IntVar()
+var = IntVar()
 def test():
     cps = entry_cps.get()
     print(cps)
+
+    button = var.get()
+    print(button)
+
 
 text = tk.Label(text="How much cps?").grid(row=0, column=2)
 entrycps = tk.Entry(textvariable=entry_cps).grid(row=1, column=2)
