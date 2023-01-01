@@ -1,1 +1,2 @@
-# ezclick2023
+# EzClicker2023
+# My second project on GitHub, using Git
